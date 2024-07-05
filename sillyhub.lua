@@ -18,7 +18,16 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-    Name = "Airhub (FPS Games)",
+    Name = "CMD-X",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source'))()
+    end,
+})
+
+local Section = Tab:CreateSection("FPS Games")
+
+local Button = Tab:CreateButton({
+    Name = "Airhub",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Exunys/AirHub-V2/main/src/Main.lua'))()
     end,
