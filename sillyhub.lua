@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
     LoadingSubtitle = "by Mysty",
 })
 
-local Tab = Window:CreateTab("Main")
+local Tab = Window:CreateTab("Scripts")
 
 local Section = Tab:CreateSection("Universal")
 
