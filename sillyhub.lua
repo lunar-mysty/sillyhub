@@ -67,7 +67,7 @@ local Button = Tab:CreateButton({
     Name = "Reload Silly Hub",
     Callback = function()
         Rayfield:Destroy()
-        loadstring(game:HttpGet('https://leolionross.dev/files/scripts/sillyhub.lua'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Leolionross/sillyhub/main/sillyhub.lua'))()
         Rayfield:Notify({
             Title = "Reloaded!",
             Content = "Silly Hub has been successfully reloaded!",
