@@ -36,11 +36,6 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
     Name = "Butter Hub",
     Callback = function()
-        Rayfield:Notify({
-            Title = "Warning",
-            Content = "Butter Hub does not work on MacSploit (It won't load) but it should work fine on most other executors.",
-            Duration = 6.5
-        })
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/lt2'))()
     end,
 })
@@ -65,7 +60,7 @@ local Section = Tab:CreateSection("Credits")
 local Label = Tab:CreateLabel("Created with ❤️ by Lunar Mysty")
 
 local Section = Tab:CreateSection("Details")
-local Label = Tab:CreateLabel("Updated July 4, 2024 🇺🇸🇺🇸🛢️🛢️🦅🦅🔫🔫")
+local Label = Tab:CreateLabel("Updated July 5, 2024")
 local Label = Tab:CreateLabel("Tested Using MacSploit")
 
 local Section = Tab:CreateSection("")
