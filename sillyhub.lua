@@ -46,7 +46,7 @@ local Button = Tab:CreateButton({
 })
 
 local Section = Tab:CreateSection("More")
-local Label = Tab:CreateLabel("I will definitely add more features and scripts int he future.")
+local Label = Tab:CreateLabel("I will definitely add more features and scripts in the future.")
 
 local Tab = Window:CreateTab("Settings")
 local Section = Tab:CreateSection("Settings")
