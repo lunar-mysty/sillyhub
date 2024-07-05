@@ -27,7 +27,7 @@ local Button = Tab:CreateButton({
 local Section = Tab:CreateSection("LT2")
 
 local Button = Tab:CreateButton({
-    Name = "Luaware (Freezes game for a few secs)",
+    Name = "Luaware",
     Callback = function()
         loadstring(game:HttpGet('https://leolionross.dev/files/scripts/lwl.lua'))()
     end,
@@ -44,6 +44,9 @@ local Button = Tab:CreateButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/lt2'))()
     end,
 })
+
+local Section = Tab:CreateSection("More")
+local Label = Tab:CreateLabel("I will definitely add more features and scripts int he future.")
 
 local Tab = Window:CreateTab("Settings")
 local Section = Tab:CreateSection("Settings")
@@ -64,3 +67,6 @@ local Label = Tab:CreateLabel("Created with ❤️ by Lunar Mysty")
 local Section = Tab:CreateSection("Details")
 local Label = Tab:CreateLabel("Updated July 4, 2024 🇺🇸🇺🇸🛢️🛢️🦅🦅🔫🔫")
 local Label = Tab:CreateLabel("Tested Using MacSploit")
+
+local Section = Tab:CreateSection("")
+local Paragraph = Tab:CreateParagraph({Title = "More Info", Content = "Roblox exploiting has been dead for a while, and many of the people who were actively part of the community are now long gone. Because of this, many scripts were abandoned and left to break over time because of updates. This also makes it extremely hard to find any scripts for a game now, as exploiting is a lot less... mainstream as it was before. So don't expect a ton of scripts. Not many are out there, but there are still some."})
