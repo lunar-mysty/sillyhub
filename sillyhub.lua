@@ -49,6 +49,16 @@ local Button = Tab:CreateButton({
     end,
 })
 
+local Section = Tab:CreateSection("Untitled Tag Game")
+
+local Button = Tab:CreateButton({
+    Name = "Ranxware",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Zer0ids/Qwerty/main/UntitledTag/NewScript.lua'))()
+    end,
+})
+
+
 local Section = Tab:CreateSection("More")
 local Label = Tab:CreateLabel("I will definitely add more features and scripts in the future.")
 
