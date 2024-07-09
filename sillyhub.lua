@@ -58,6 +58,19 @@ local Button = Tab:CreateButton({
     end,
 })
 
+local Section = Tab:CreateSection("Bloxburg")
+
+local Button = Tab:CreateButton({
+    Name = "Minimum Wage",
+    Callback = function()
+        _G.time = 4
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ZackDaQuack/blox/main/minimum_wage.lua', true))()
+    end,
+})
+
+local Label = Tab:CreateLabel("INSTRUCTIONS: Please Follow")
+local Label = Tab:CreateLabel("1: Teleport to Bloxy Burger's cashier area\n2: Execute the script BEFORE entering the cashier.\n3: Enjoy! If you want to stop, enter Bloxburg's settings menu and click \"Stop Autofarm\"")
+
 
 local Section = Tab:CreateSection("More")
 local Label = Tab:CreateLabel("I will definitely add more features and scripts in the future.")
