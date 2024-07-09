@@ -68,8 +68,7 @@ local Button = Tab:CreateButton({
     end,
 })
 
-local Label = Tab:CreateLabel("INSTRUCTIONS: Please Follow")
-local Label = Tab:CreateLabel("1: Teleport to Bloxy Burger's cashier area\n2: Execute the script BEFORE entering the cashier.\n3: Enjoy! If you want to stop, enter Bloxburg's settings menu and click \"Stop Autofarm\"")
+local Paragraph = Tab:CreateParagraph({Title = "INSTRUCTIONS: Please Follow", Content = "1: Teleport to Bloxy Burger's cashier area\n2: Execute the script BEFORE entering the cashier.\n3: Enjoy! If you want to stop, enter Bloxburg's settings menu and click \"Stop Autofarm\""})
 
 
 local Section = Tab:CreateSection("More")
