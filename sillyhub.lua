@@ -36,14 +36,14 @@ local Button = Tab:CreateButton({
 local Section = Tab:CreateSection("LT2")
 
 local Button = Tab:CreateButton({
-    Name = "Luaware",
+    Name = "Luaware (Macsploit)",
     Callback = function()
         loadstring(game:HttpGet('https://leolionross.dev/files/scripts/lwl.lua'))()
     end,
 })
 
 local Button = Tab:CreateButton({
-    Name = "Butter Hub",
+    Name = "Butter Hub (All Executors but Macsploit)",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/lt2'))()
     end,
