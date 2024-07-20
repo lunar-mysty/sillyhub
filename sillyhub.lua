@@ -94,5 +94,13 @@ local Section = Tab:CreateSection("Details")
 local Label = Tab:CreateLabel("Updated July 9, 2024")
 local Label = Tab:CreateLabel("Tested Using MacSploit and Solara")
 
+local Section = Tab:CreateSection("Loadstring")
+local Button = Tab:CreateButton({
+    Name = "Copy the Loadstring Function",
+    Callback = function()
+        setclipboard("loadstring(game:HttpGet('https://raw.githubusercontent.com/Leolionross/sillyhub/main/sillyhub.lua'))()")
+    end,
+})
+
 local Section = Tab:CreateSection("")
 local Paragraph = Tab:CreateParagraph({Title = "More Info", Content = "Roblox exploiting has been dead for a while, and many of the people who were actively part of the community are now long gone. Because of this, many scripts were abandoned and left to break over time because of updates. This also makes it extremely hard to find any scripts for a game now, as exploiting is a lot less... mainstream as it was before. So don't expect a ton of scripts. Not many are out there, but there are still some."})
